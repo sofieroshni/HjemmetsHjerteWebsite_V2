@@ -1,0 +1,77 @@
+.homepage-main-oj {
+    /* min-height: 200vh; */
+    background-image: url('.././images/fifthElement/Vector.svg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/* Homepage Oskar */
+
+.hero-oj {
+    width: 100%; 
+}
+
+.video-container {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#hero-video {
+    height: 400px;
+}
+
+.categories-oj {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    /* background-image: url('../../images/fifthElement/fifthElement_inverted_mobile.svg'); */
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.category-container-oj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 100%;
+    margin: 0px;
+}
+
+.category-container-oj:hover {
+    text-decoration: underline;
+    /* background-color: white; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 1s; */
+}
+
+.category-img {
+    max-width: 400px;
+    margin: 16px;
+}
+
+@media (min-width: 800px) {
+     
+    #hero-video {
+         width: 100%;
+         height: auto;
+    }
+
+    .categories-oj {
+        /* background-image: url('../../images/fifthElement/fifthElement_inverted_desktop.svg'); */
+        background-repeat: no-repeat;
+    }
+     
+    .category-container-oj {
+        flex: 1 1 45%; /* Adjust the percentage as needed */
+    }
+
+     
+}

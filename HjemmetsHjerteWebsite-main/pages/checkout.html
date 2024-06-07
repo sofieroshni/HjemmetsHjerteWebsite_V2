@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hjemmets Hjerte">
+    <meta name="description" content="Hjemmets Hjerte tilbyder danske designmøbler og indretningsinspiration. Find minimalistike og bæredygtige møbler til dit hjem hos os.">
+    <meta name="keywords" content="møbler, stoler, reoler, sofaer, borde, hjemmets hjerte, hjem, kvalitet, bæredygtighed, design, nordisk minimalistisk">
+    <title>Hjem | Hjemmets Hjerte</title>
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="../index.html"><img class="logo" src="../images/logo/logo1.png"alt="Hjemmets Hjerte logo"></a>
+            <nav class="desktop-nav">
+                <a class="navigation-link" href="./products.html">Produkter</a>
+                <a class="navigation-link" href="./kontakt.html">Kontakt</a>
+                <a class="navigation-link" href="./levering.html">Levering</a>
+                <a class="navigation-link" href="./omoss.html">Om oss</a>
+                <a class="navigation-link" href="./inspiration.html">Inspiration</a>
+                <a class="navigation-link" href="./checkout.html">Checkout</a>
+                <a class="navigation-link" href="./wishlist.html"><img src="../images/icons/heart.svg" class="navigation-icons" alt="Wishlist"/></a>
+                <a class="navigation-link" href="./cart.html"><img src="../images/icons/shoppingbag.svg" class="navigation-icons" alt="Cart"/></a>
+            </nav>
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="./products.html">Møbler</a>
+            <a href="./kontakt.html">Kontakt</a>
+            <a href="./levering.html">Levering</a>
+            <a href="./omoss.html">Om oss</a>
+            <a href="./inspiration.html">Inspiration</a>
+            <a href="./checkout.html">Checkout</a>
+        </nav>
+    </header>
+    <main class="checkout">
+       <h1>CHECKOUT</h1>
+        <h2>Din kurv</h2>   
+     
+        <section class="items-in-bag">
+            <div class="shadow">
+            </div>
+            <div class="item-in-bag">
+                <img src="../images/productimg/redoakchair.png" alt="Red Oak Stol">
+            </div>
+        <div class="item-in-bag-info">
+            <div>
+                <p class="titelroshni">Red Oak Chai|Hjemmets Hjerte</p>
+                <p class="prisroshni">1.500 kr;</p>
+            </div>
+<div>
+    <img class="trashbin"src="../images/productimg/skraldespand.png" alt="Skraldespand">
+    <button class="remove">Fjern</button>
+</div>
+        </div>
+        <div class="arrowdown">
+<p>TIL KASSEN</p>
+<img src="../images/productimg/arrowdown.png" alt="Pil ned">
+
+        </div>
+      </section>
+      <h2>Navn og Adresse</h2>
+
+    
+      <section class="name-and-adress">
+        
+        <!-- <form id="nameAndAdress" action="">
+            <p>Fornavn</p>
+            <input class="input-container" type="text" name="name" id="name">
+            <p>Efternavn</p>
+            <input class="input-container" type="text" name="lastname" id="lastname">
+            <div id="two-input">
+                <div>
+                    <p>Adresse</p>
+                    <input class="input-container" type="text" name="adress" id="adress">
+                </div>
+              
+                <div>
+                    <p>Bynavn</p>
+                    <input class="input-container" type="text" name="townnumber" id="townnumber">
+                </div>
+            </div>
+            <p>Email</p>
+            <input class="input-container"  type="email" name="email" id="email">   
+        </form> -->
+
+            <form id="checkout-form" class="archivo">
+                <div class="input-container-checkout">
+                    <label for="adress-checkout">Adresse</label>
+                    <input type="text" name="adress-checkout" id="adress-checkout">
+                </div>
+                <div id="city-and-postnumber-checkout">
+                    <div class="input-container-checkout">
+                        <label for="postnumber-chekcout">Postnummer</label>
+                        <input type="text" name="postnumber-chekcout" id="postnumbere-checkout">
+                    </div>
+                    <div class="input-container-checkout">
+                        <label for="name-chekcout">By</label>
+                        <input type="text" name="city-chekcout" id="city-checkout">
+                    </div>
+                </div>
+                <div class="input-container-checkout">
+                    <label for="firstname-chekcout">Fornavn</label>
+                    <input type="text" name="firstname-chekcout" id="firstnamename-checkout">
+                </div>
+                <div class="input-container-checkout">
+                    <label for="lastname-chekcout">Efternavn</label>
+                    <input type="text" name="lastname-chekcout" id="lastnamename-checkout">
+                </div>
+            </form>
+        </section>
+
+      <h2>Ønsket Leveringsmetode</h2>
+      <section class="leveringsmetode">
+        <label for="" class="container">
+        <p>LEVERING MED GLS PAKKEPOST (POSTKASSE)</p>
+        
+        <input type="radio" name="pakkepost" class="" id="radioButton">
+        <p>LEVERING TIL FRONTDØR</p>
+    <input type="radio" name="frontdor"  class=""id="radioButton">
+    <p>LEVERING MED MONTERING</p>
+    <input type="radio" name="montering"  class="" id="radioButton">
+</label>
+      </section>
+<h2>Betalingsoplysninger</h2>
+<section class="betalings-oplysninger-section">
+    <img id="payment-options" class="payment-options"src="../images/productimg/betalingsmetoder.png" alt="Betalingsmetoder">
+    <form action="" id="kortopslysninger">
+
+            <p>Kortnavn</p>
+            <input class="input-container" type="text" name="adress" id="adress">
+        </div>
+    
+    <div>
+        <p>Bynavn</p>
+        <input class="input-container" type="text" name="townnumber" id="townnumber">
+        </div>
+    </div>
+
+    <p>Email</p>
+    <input class="input-container"  type="email" name="email" id="email">
+
+    </form>
+</section>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <section>
+            <div>
+                <img src="../images/productimg/instagram.png" class="social-icons-footer" alt="Instagram">
+                <img src="../images/productimg/facebook.png" class="social-icons-footer" alt="Facebook">
+            </div>
+            <div>
+                <img src="../images/productimg/telefon.png" class="telefon" alt="Phone">
+                <p>+45 88456793</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>© Hjemmets Hjerte | Sygehusvej 27B, 4600 Køge</p>
+            </div>
+        </section>
+        <section>
+            <p class="aabningstider">
+                Åbningstider: <br>
+                Mandag - Fredag: 9-19 <br>
+                Lørdag: 11-17
+            </p>
+        </section>
+        <section>
+            <div class="flagdiv">
+                <img src="../images/productimg/dansk.png" class="flag" alt="Danish Flag">
+                <img src="../images/productimg/engelsk.png" class="flag" alt="English Flag">
+            </div>
+            <div class="payments-methods">
+                <img src="../images/productimg/visalogo.png" class="visa" alt="Visa">
+                <img src="../images/productimg/mobilepay.png" class="mobilepay" alt="MobilePay">
+            </div>
+        </section>
+    </footer>
+    
+    <script src="../js/index.js" type="module"></script>
+</body>
+</html>

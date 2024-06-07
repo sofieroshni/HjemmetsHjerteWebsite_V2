@@ -105,20 +105,36 @@ items.forEach(item => {
 const div_itemstwo =document.querySelector("#itemstwo");
 
 let itemstwo = [
+  {
+    "name" : "redoakchair",
+    "image" : "../images/productimg/massive1.png",
+    "price" : 1500,
+    "save" : "../images/productimg/nofill.png",
+    "putinbag": "../images/productimg/bag.png",
+},
+{
+  "name" : "redoakchair",
+  "image" : "../images/productimg/bordinspiration.png",
+  "price" : 1500,
+  "save" : "../images/productimg/nofill.png",
+  "putinbag": "../images/productimg/bag.png",
+},
     {
         "name": "bord",
         "price": 2500,
-        "image": "../images/productimg/browntable.png",
+        "image": "../images/productimg/massive2.png",
         "save": "../images/productimg/nofill.png",
         "putinbag": "../images/productimg/bag.png",
     },
     {
-        "name" : "redoakchair",
-        "image" : "../images/productimg/idunstol.png",
-        "price" : 1500,
-        "save" : "../images/productimg/nofill.png",
-        "putinbag": "../images/productimg/bag.png",
-    },
+      "name": "bord",
+      "price": 2500,
+      "image": "../images/productimg/redoakchair.png",
+      "save": "../images/productimg/nofill.png",
+      "putinbag": "../images/productimg/bag.png",
+  },
+
+   
   
 ]
 itemstwo.forEach(itemtwo =>{

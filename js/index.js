@@ -1,4 +1,4 @@
 import header from './functions/header.js';
 
 header();
-console.log('hello')
+console.log('js_V2')

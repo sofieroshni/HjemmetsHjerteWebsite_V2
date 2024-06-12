@@ -1,7 +1,5 @@
 const scrollBtn =document.getElementById("scrollBtn");
 const BtnHenrik = document.getElementById("whiteBtnHenrik");
-const
-function show
 
 
 function scrollDownFunction() {

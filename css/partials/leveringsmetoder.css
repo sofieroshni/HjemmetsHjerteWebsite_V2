@@ -30,3 +30,6 @@
 .delivery-steps div {
     margin-bottom: 48px;
 }
+.delivery-steps div>p, .delivery-info p {
+color: black;
+opacity: 50%;}

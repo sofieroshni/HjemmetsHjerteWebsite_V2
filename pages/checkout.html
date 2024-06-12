@@ -40,11 +40,11 @@
        <h1>CHECKOUT</h1>
         <h2>Din kurv</h2>   
      
-        <section class="items-in-bag">
+        <section class="items-in-bag item-in-bag-desktop">
             <div class="shadow">
             </div>
             <div class="item-in-bag">
-                <img src="../images/productimg/redoakchair.png" alt="Red Oak Stol">
+                <img src="../images/productimg/redoakchair.png"  class="item-img"alt="Red Oak Stol">
             </div>
         <div class="item-in-bag-info">
             <div>
@@ -67,25 +67,7 @@
     
       <section class="name-and-adress">
         
-        <!-- <form id="nameAndAdress" action="">
-            <p>Fornavn</p>
-            <input class="input-container" type="text" name="name" id="name">
-            <p>Efternavn</p>
-            <input class="input-container" type="text" name="lastname" id="lastname">
-            <div id="two-input">
-                <div>
-                    <p>Adresse</p>
-                    <input class="input-container" type="text" name="adress" id="adress">
-                </div>
-              
-                <div>
-                    <p>Bynavn</p>
-                    <input class="input-container" type="text" name="townnumber" id="townnumber">
-                </div>
-            </div>
-            <p>Email</p>
-            <input class="input-container"  type="email" name="email" id="email">   
-        </form> -->
+       
 
             <form id="checkout-form" class="archivo">
                 <div class="input-container-checkout">
@@ -95,11 +77,11 @@
                 <div id="city-and-postnumber-checkout">
                     <div class="input-container-checkout">
                         <label for="postnumber-chekcout">Postnummer</label>
-                        <input type="text" name="postnumber-chekcout" id="postnumbere-checkout">
+                        <input type="text" name="postnumber-chekcout" id="postnumbere-checkout " class="post">
                     </div>
                     <div class="input-container-checkout">
                         <label for="name-chekcout">By</label>
-                        <input type="text" name="city-chekcout" id="city-checkout">
+                        <input type="text" name="city-chekcout" id="city-checkout " class="post">
                     </div>
                 </div>
                 <div class="input-container-checkout">
@@ -112,7 +94,34 @@
                 </div>
             </form>
         </section>
+        <h2>Betalingsoplysninger</h2>
+        <section class="betalings-oplysninger-section">
+            <img id="payment-options" class="payment-options"src="../images/productimg/betalingsmetoder.png" alt="Betalingsmetoder">
+            <form action="" id="kortopslysninger">
+        
+<p>Kortnavn</p>
+                    <input class="input-container" type="text" name="adress" id="adress">
+                </div>
+                <p>Kort-cifre</p>
+                <input class="input-container" type="text" name="townnumber" id="townnumber">
+            
+            </div>
+            
+           <div class="cardinputboxes">
+            <div>
+                <p id="cvv">CVV</p>  
+                <input class="input-container"  type="text" name="email" id="email">
+            </div>
+            <div>
+                <p id="cvv">Uløbsdato</p>
+                <input class="input-container"  type="text" name="email" id="email">
+            </div>
+      
 
+
+        </div>
+            </form>
+        </section>
       <h2>Ønsket Leveringsmetode</h2>
       <section class="leveringsmetode">
         <label for="" class="container">
@@ -125,27 +134,9 @@
     <input type="radio" name="montering"  class="" id="radioButton">
 </label>
       </section>
-<h2>Betalingsoplysninger</h2>
-<section class="betalings-oplysninger-section">
-    <img id="payment-options" class="payment-options"src="../images/productimg/betalingsmetoder.png" alt="Betalingsmetoder">
-    <form action="" id="kortopslysninger">
 
-            <p>Kortnavn</p>
-            <input class="input-container" type="text" name="adress" id="adress">
-        </div>
-    
-    <div>
-        <p>Bynavn</p>
-        <input class="input-container" type="text" name="townnumber" id="townnumber">
-        </div>
-    </div>
-
-    <p>Email</p>
-    <input class="input-container"  type="email" name="email" id="email">
-
-    </form>
-</section>
-
+<button id="godkend">Bekræft ordre</button>
+<a href="index.html"></a><button id="godkend">Shop videre</button></a>
 
     </main>
 

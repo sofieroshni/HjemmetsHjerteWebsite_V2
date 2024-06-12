@@ -106,19 +106,16 @@ const div_itemstwo =document.querySelector("#itemstwo");
 
 let itemstwo = [
   {
-    "name" : "redoakchair",
-    "image" : "../images/productimg/massive1.png",
-    "price" : 1500,
-    "save" : "../images/productimg/nofill.png",
+    "name" : "Hjemmets Hjerte|lys tynd egetræ",
+    "price" : 2500,
+    "image" : "../images/productimg/lightlightchair.png",
+    "save": "../images/productimg/nofill.png",
     "putinbag": "../images/productimg/bag.png",
+    "year": 2008,
+    "color":"light"
+
 },
-{
-  "name" : "redoakchair",
-  "image" : "../images/productimg/bordinspiration.png",
-  "price" : 1500,
-  "save" : "../images/productimg/nofill.png",
-  "putinbag": "../images/productimg/bag.png",
-},
+
     {
         "name": "bord",
         "price": 2500,
@@ -172,6 +169,8 @@ const div_itemtwo = `
 `
     div_itemstwo.insertAdjacentHTML("afterbegin", div_itemtwo);
 })
+
+//*two times white btn's square 
 const inspBtn = document.getElementById('whiteBox');
 const inspCard = document.getElementById('white-chair-card');
 const closeBtn = document.getElementById('closeBtn');
@@ -186,8 +185,26 @@ inspBtn.addEventListener('click', () => {
   closeBtn.addEventListener('click', ( )=>{
 inspCard.style.display ='none';
 
-  })
+  });
+  const inspBtnTwo = document.getElementById('whiteBoxTwo');
+  const closeBtnTwo = document.getElementById('closeBtnCard');
+  const inspCardTwo = document.getElementById('tablecard');
   
+  inspBtnTwo.addEventListener('click', () => {
+    if (inspCardTwo.style.display === 'block') {
+      inspCardTwo.style.display = 'none';
+    } else {
+      inspCardTwo.style.display = 'block';
+    }
+  });
+  
+  closeBtnTwo.addEventListener('click', () => {
+    inspCardTwo.style.display = 'none';
+  });
+  
+
+
+
 
   const exspensiveBtn = document.querySelector("#exspensive");
 
@@ -547,3 +564,6 @@ cards.forEach(card => {
   div_cards.insertAdjacentHTML("afterbegin", div_card);
  
 });
+
+
+

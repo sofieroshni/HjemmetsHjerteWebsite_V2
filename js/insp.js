@@ -1,8 +1,12 @@
 const scrollBtn =document.getElementById("scrollBtn");
+const BtnHenrik = document.getElementById("whiteBtnHenrik");
+const
+function show
+
 
 function scrollDownFunction() {
     window.scrollBy({
-      top: 500, // Scroll down 200px
+      top: 600, // Scroll down 200px
       behavior: 'smooth' // Smooth scroll
     });
 }

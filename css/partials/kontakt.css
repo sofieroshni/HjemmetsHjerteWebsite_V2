@@ -59,11 +59,22 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
+
 }
 
-.box {
-    width: 200px;
-    height: 200px;
-    background-color: lightgreen;
+.contact-input label {
+    margin-bottom: 5px;
+}
+
+.submit-btn {
+    background-color: #6B6560;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #000000;
+    transition: 1s;
 }
 

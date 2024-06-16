@@ -1,58 +1,23 @@
-/* .contact {
-    min-height: 100vh;
+.contact {
+    margin-top: 140px;
+    margin-bottom: 140px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.contact-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 25px;
-    margin: 16px;
-    width: 300px;
-}
-
-.contact-input {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 16px;
-}
-
-.contact-input input, .contact-input textarea {
-    border-radius: 0px;
-    border: 1px solid black;
-}
-
-.contact-info {
-
-}
-
-.submit-btn {
-    background-color: #523D3E;
-    padding: 10px 30px;
-    border: none;
-    color: #FAFAFA;
-    width: 100%;
-    margin-top: 16px;
+/* .contact-info, .contact-form {
+    flex: 1;
+    margin: 64px;
 } */
 
-.contact {
-    margin: 140px 64px 64px 64px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 .contact-form {
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .contact-input {
@@ -60,6 +25,14 @@
     flex-direction: column;
     margin-bottom: 16px;
 
+}
+
+.gMap {
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .contact-input label {
@@ -78,3 +51,14 @@
     transition: 1s;
 }
 
+@media (min-width: 900px){
+    .gMap {
+        width: 500px;
+        height: 450px;
+        margin-top: 0px;
+    }
+    
+    .contact-form {
+        width: 500px;
+    }
+}

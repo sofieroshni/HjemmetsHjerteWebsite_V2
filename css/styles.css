@@ -65,6 +65,17 @@ p {
   align-items: center; 
   width: 100px;
 }
+.persusaive-two{
+  width: 300px;
+  font-size: 12px;
+  
+  font-family: "Archivo", sans-serif;
+  font-weight: 900;
+  color: gray;
+  left: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
 .tilbage>img{
   width: 25px;
   margin-right: 5px;

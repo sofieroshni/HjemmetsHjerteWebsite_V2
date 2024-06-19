@@ -73,8 +73,8 @@ p {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
+
 .roshni-main-productpage {
   display: flex;
   justify-content: center;
@@ -1193,7 +1193,6 @@ input{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-=======
 #payment-options{
   width: 250px;
   margin: 0;

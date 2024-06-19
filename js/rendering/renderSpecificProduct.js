@@ -14,8 +14,8 @@ export default async function renderSpecificProduct(){
             if (product.id === productId) {
                 return product;
             }
-            return foundProduct;
-        }, null);
+            return foundProduct; /**retunerer det produkt hvis url-id matcher med array.id*/
+        }, null); /*den første sammenlikningen i urgangspunktet, aka, tomt*/
 
         console.log(filteredProduct.model)
 

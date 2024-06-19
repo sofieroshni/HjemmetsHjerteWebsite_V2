@@ -4,7 +4,7 @@ import renderSpecificProduct from './rendering/renderSpecificProduct.js';
 import filterProducts from './rendering/filterProducts.js';
 
 const pathName = location.pathname;
-console.log(pathName);
+// console.log(pathName);
 
 function setRoute(path){
     header();
@@ -21,3 +21,19 @@ function setRoute(path){
 }
 
 setRoute(pathName);
+
+// const url = "https://v2.api.noroff.dev/jokes";
+
+// async function getJokes(){
+//     const response = await fetch(url);
+//     const jokes = await response.json();
+//     console.log(jokes.data);
+// }
+
+// getJokes();
+
+// function addNumbers(numberA, numberB){
+//     const sum = numberA + numberB;
+// }
+
+// addNumbers("5, 4", "nfdjfesnkjnf")

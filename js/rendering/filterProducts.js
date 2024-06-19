@@ -2,7 +2,7 @@ import getProducts from "../api/getProducts.js";
 import renderFiltered from "./renderFilteredProducts.js";
 
 export default async function filterProducts(){
-    const products = await getProducts();
+    const products = await getProducts(); /*Henter produkter */
 
     const henrikBtn = document.getElementById('Henrik');
     const hjemmetsHjerteBtn = document.getElementById('HJerte');
@@ -34,8 +34,10 @@ export default async function filterProducts(){
     if(newProductsBtn){
         newProductsBtn.addEventListener('click', () => {
             const filteredProducts = products.sort((a, b) => {
+                
                 return a.year < b.year;
             })
+            console.log(filteredProducts.year)
             renderFiltered(filteredProducts);
         })
 
@@ -46,6 +48,7 @@ export default async function filterProducts(){
             const filteredProducts = products.sort((a, b) => {
                 return a.year > b.year;
             })
+            console.log(filteredProducts.year)
             renderFiltered(filteredProducts);
         })
     }

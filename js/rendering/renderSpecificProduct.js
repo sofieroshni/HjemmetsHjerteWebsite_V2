@@ -44,11 +44,13 @@ export default async function renderSpecificProduct(){
                                                 <li>${filteredProduct.farve}r</li>
                                             </ul>
                                         </div>
+                                        <h2 class="prsice-filtered-product" >${filteredProduct.price} kr; </h2>
                                         <button class="put-in-basket">Læg i kurv</button>
                                         <button class="add-wish">Tilføj til ønskeliste</button>
                                     </div>
                                     <div class="picture-slider">
                                         <img class="stolslide" src="${filteredProduct.image}" alt="Dark Oak Chair">
+                                    
                                         <img src="../images/productimg/gigantiskstol.png" alt="Dark Oak Chair">
                                     </div>
                                 </div>

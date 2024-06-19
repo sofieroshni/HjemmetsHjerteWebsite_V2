@@ -162,6 +162,45 @@ position: absolute;
 }
 
 
+.designers{
+    display: flex;
+    margin: 0;
+    padding:0; 
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+
+
+}
+.designers>div{
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    
+    display: flex;
+   
+
+}
+.designers>div:hover{
+   opacity: 50%;
+   
+
+}
+.designers>div>img{
+    display: flex;
+    width: 100%;
+    text-align: center;
+
+}
+.designers>div>a{
+    position: absolute;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:white;
+}
 @media (min-width: 800px) {
      
     #hero-video {
@@ -245,5 +284,57 @@ position: absolute;
         margin-right: 32px;
         
         
+        }
+        #designersid{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            
+        }
+        #designersid>div{
+            justify-content: center;
+            align-items: center;
+            align-items: center;
+            display: flex;
+         
+       
+   
+           
+        
+        }
+        .designers>div>img{
+            display: flex;
+     
+            text-align: center;
+            margin-left: 32px;
+            margin-right: 32px;
+            width: 250px;
+         
+        
+        }
+        .designers>div>a{
+            position: absolute;
+            font-family: "Julius Sans One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+            color:white;
+            padding-top: 10px;
+        }
+       
+        .categories-oj{
+            padding-left: 50px;
+            padding-right: 50px;
+            height: 1000px;          
+
+            justify-content: center;
+            align-items: center;
+        }
+        .category-container-oj{
+            width: 50%;
+            height: 50%;
+
         }
 }

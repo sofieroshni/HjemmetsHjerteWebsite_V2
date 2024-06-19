@@ -1,6 +1,7 @@
 .inspiration-main{
     width: 100%;
     overflow: hidden;
+    
 }
 
 .forest{
@@ -15,13 +16,7 @@
 }
 
 @keyframes forest {
-    0% { opacity: 0; bottom:-100px;}
-  
-    25% { opacity: 0.1; bottom:-100px;}
-    50% { opacity: 0.1; bottom:-100px;}
-
-
-    100%{ opacity: 1; bottom: 0;}
+    
     
 }
 
@@ -275,10 +270,16 @@ font-size: 12px;
 
  .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 5px; /* Just to add some space between the grid items */
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    gap: 1px; /* Just to add some space between the grid items */
     background-color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 0;
+    margin-bottom: 0;
    
 }
 
@@ -327,6 +328,40 @@ font-size: 12px;
     margin: 5px;
 
 }
+
+.go-to-instagram-div{
+    width: 80%;
+    display: flex;
+
+}
+
+.checkout-btn{
+    padding: 10px;
+    background-color: black;
+    color:WHITE;
+    color:white;
+    align-self: flex-end;
+    justify-self: flex-end;
+    display: flex;
+    
+  }
+  .checkout-btn>a{
+    padding: 10px;
+    color:white;
+    color:WHITE;
+    color:white;
+  }
+
+
+
+
+
+
+
+
+
+
+
 /*  */
     @media (min-width: 700px) {
         .background-first-section {
@@ -453,9 +488,10 @@ font-size: 12px;
         display: grid;
         grid-template-columns: repeat(4
         , 1fr);
-        grid-template-rows: repeat(4, 1fr);
         gap: 5px; /* Just to add some space between the grid items  */
       justify-content: center;
+      width: 100%;
+      align-items: center;
     }
     
     #grid-item {
@@ -468,8 +504,16 @@ font-size: 12px;
         justify-content: center;
         padding: 0;
         margin: 0;
+        justify-self: center;
+        align-self: center;
+        margin-top: 32px;
         
       
+    }
+    #go-to-instagram-div{
+        background-color: #523D3E;
+        width: 80%;
+        margin-left: 50px;
     }
     .go-to-our-instagram{
         width: 10px;
@@ -479,12 +523,11 @@ font-size: 12px;
         border:none;
         justify-content: center;
         align-items: center;
-        padding: 22px;
-       height: 20px;
-       margin-left: 20px;
+       padding: 0;
+       margin: 0;
+       margin-top: 0;
     
     }
-  
    
     .HenrikHjemmesidelink{
         text-decoration: none;
@@ -514,11 +557,14 @@ font-size: 12px;
         align-items: center;
         padding: 22px;
        height: 20px;
-       margin-left: 20px;
        margin-bottom: 10px;
+       margin-left: 90px;
+       margin-bottom: 10px;
+       margin-top: 10px;
+     
     
     }
-
+    
 }
 
 

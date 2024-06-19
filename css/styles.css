@@ -56,7 +56,41 @@ p {
     font-variation-settings:
       "width" 100;
 }
+.tilbage{
+  padding: 10px;
+  background-color: black;
+  color:WHITE;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100px;
+}
+.tilbage>img{
+  width: 25px;
+  margin-right: 5px;
+}
+.tilbage-postition{
+  padding: 10px;
+  background-color: black;
+  color:WHITE;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100px;
+  position:absolute;
+}
+.check-img{
+  width: 15px;
+  margin-left: 5px;
+}
 
+.tilbage-postition>img{
+  width: 25px;
+  margin-right: 5px;
+}
+.shop-further{
+  width: 25px;
+}
 .titel{
   font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -1174,6 +1208,7 @@ input{
 
 }
 
+
 .loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
@@ -1183,6 +1218,13 @@ input{
     -webkit-animation: spin 2s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
 }
+
+
+.price-filtered-product{
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
 
 @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
